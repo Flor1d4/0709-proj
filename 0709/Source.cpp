@@ -20,7 +20,15 @@ class Person
 	string name;
 	int age;
 public:
-   
+	Person()
+	{
+     
+    }
+	Person(string n, int a)
+	{
+		name = n;
+		age = a;
+	}
  };
 int main()
 {
