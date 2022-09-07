@@ -46,6 +46,15 @@ public:
 
 	}
 };
+class Academy
+{
+	Student* group;
+	int count;
+public:
+	Academy() {
+
+	}
+};
 int main()
 {
 
